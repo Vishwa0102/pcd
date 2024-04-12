@@ -1,3 +1,46 @@
+//QUESTIONS
+1. Write a lex program to add line numbers to the given file and display the same in the
+output.
+2. Write a lex program to extract only comment lines from a C program and display the
+same on output.
+3. Write a lex program to replace sequence of blank spaces with a single blank space.
+4. Write a lex program to count the occurrence of a word “printf” in a C program.
+5. Write a lex program to remove all the occurrences of “printf” from a C program.
+6. Write a lex program to extract all html tags in the given file.
+7. Write a lex program to remove all html tags in the given file.
+8. Write a lex program to check whether the given E-mail id is correct or not.
+9. Write a lex program to check whether the given IP address is valid or not. Display the
+class to which it belongs.
+IP ADDRESS: It is a 32 bit address often written in 4 groups of 3 decimals each i.e.
+192.168.1.2 (An example of class C IP address)
+10. Write a lex program to check whether the given MAC address is valid or not. Also
+extract the manufacturer of the device.
+MAC address is assigned to each network interface when it is manufactured.  It is a
+12 digit hexadecimal number.  The 6 leftmost digits are a prefix that identifies the
+manufacturer of the device. An example of a MAC address: DE-56-0A-DC-E6-88.
+11. Write a lex program to count the number of integers and the number of floating point
+numbers in an input file.
+12. Write Lex grammar rules to recognize numbers as defined in C: For example, 1234,
+1234L, 1234U, 1234UL, 123.4, 1234E-1, 12.34E+1, 123F, 123.4L, 12E+2F, 12E-2L,
+0X1ABC, 0X1ABCU, 0X1ABCL, 0X1ABCUL (any of the alphabetic characters can
+be lower case as well)
+13. Write a lex program to recognize identifiers and keywords for C.
+14. Write a lex program to recognize various comments:
+a) starting with &quot;#&quot;
+b) Enclosed in &quot;#&quot; and #
+c) enclosed in &quot;/*&quot; and &quot;*/&quot; (nested comments)
+d) starting with &quot;//&quot;
+
+15. Write a lex program to read an input program and display the list of strings enclosed in
+double quotes and characters given in single quotes.
+16. Write a lex program to replace every letter with the letter which comes three positions
+after it in alphabetical order, wrapping around at Z.
+17. Write a lex program to find the smallest and longest words from the given text.
+
+
+//QUESTIONS ENDS
+
+
 A lex program which adds line numbers to the given file
 and displays the same onto the standard output
 %{
